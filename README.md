@@ -26,3 +26,8 @@ existing text summarising models to generate product-centric summaries with bing
 
 ## Text to speech
 We used the [bark text to speech model](https://github.com/suno-ai/bark) to generate audio from the text.
+```py
+python  text-to-speech.py -file "input-file.txt" -ofile "output-file.wav"
+```
+* -file: specify input file name (the text file containing text to be converted to audio)
+* -ofile: specify the name of the audio output file
